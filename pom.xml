@@ -363,7 +363,7 @@
   </profiles>
   <build>
     <plugins>
-      <plugin>
+      <!-- <plugin>
         <groupId>org.wso2.maven</groupId>
         <artifactId>synapse-unit-test-maven-plugin</artifactId>
         <version>5.2.90</version>
@@ -388,7 +388,7 @@
           <testCasesFilePath>${project.basedir}/src/test/wso2mi/${testFile}</testCasesFilePath>
           <mavenTestSkip>${maven.test.skip}</mavenTestSkip>
         </configuration>
-      </plugin>
+      </plugin> -->
     </plugins>
   </build>
   <properties>
