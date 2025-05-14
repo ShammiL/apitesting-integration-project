@@ -8,6 +8,11 @@
   <packaging>pom</packaging>
   <name>APITesting</name>
   <description>APITesting</description>
+  <scm>
+    <connection>scm:git:https://github.com/ShammiL/apitesting-integration-project.git</connection>
+    <developerConnection>scm:git:https://github.com/ShammiL/apitesting-integration-project.git</developerConnection>
+    <url>https://github.com/ShammiL/apitesting-integration-project.git</url>
+  </scm>
   <repositories>
     <repository>
         <id>wso2-nexus</id>
