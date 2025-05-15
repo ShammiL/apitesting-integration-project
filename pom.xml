@@ -2,7 +2,7 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>wso2.sampleAPITesting</groupId>
-  <artifactId>APITesting</artifactId>
+  <artifactId>apitesting</artifactId>
   <version>1.0.0</version>
   <packaging>pom</packaging>
   <name>APITesting</name>
@@ -324,11 +324,12 @@
                 <phase>package</phase>
                 <goals>
                   <goal>build</goal>
+                  <goal>push</goal>
                 </goals>
                 <configuration>
                   <images>
                     <image>
-                      <name>${project.artifactId}:${project.version}</name>
+                      <name>19980107/${project.artifactId}:${project.version}</name>
                       <build>
                         <from>${dockerfile.base.image}</from>
                         <dockerFile>${basedir}/target/tmp_docker/Dockerfile</dockerFile>
