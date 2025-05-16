@@ -327,6 +327,7 @@
                   <goal>push</goal>
                 </goals>
                 <configuration>
+                  <dockerHost>unix:///var/run/docker.sock</dockerHost>
                   <images>
                     <image>
                       <name>19980107/${project.artifactId}:${project.version}</name>
